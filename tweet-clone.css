@@ -1,0 +1,129 @@
+/* Tweet clone */
+/* My codes 01/23/2016 */
+* {
+  font-family: "Helvetica Neue", Helvatica, Arial, sans-serif;
+}
+
+body {
+  background: rgb(244, 248, 249);
+}
+
+p {
+    line-height: 1.8em;
+    font-size: 34px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+.ninja-header {
+    margin-top: 6px;
+}
+
+.tweet {
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 70%;
+    padding: 3em 2em 0.8em 2em;
+    border: 2px solid rgb(225, 232, 237);
+    margin-top: 26em;
+    margin-left: 2em;
+}
+.user-image {
+    float: left;
+    width: 9.2%;
+}
+.user-bold {
+    font-weight: bold;
+    text-shadow: 0.6px 0 #000000;
+    color: #212527;
+}
+.user-area {
+    padding-left: 3em;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    position: relative;
+    top: -0.3em;
+}
+
+.user-name {
+color:  rgb(0, 0, 0);
+}
+.user-account {
+  color:     rgb(104, 109, 129);
+}
+  .text-tw {
+    color: rgb(0, 0, 0);
+}
+.date {
+    color: rgb(101, 116, 127);
+}
+.bottom-text-color{
+    color: rgb(105, 120, 130);
+}
+.follow-button {
+    color: rgb(77, 166, 231);
+    float: right;
+    border-radius: 15px;
+    background-color: transparent;
+    border: 2px solid #49a7ea;
+    padding: 0.5em 0.8em 0.5em 0.8em;
+    font-size: 30px;
+    font-weight: bold;
+    z-index: 300;
+}
+.up-img {
+    padding-left: 0.2em;
+    padding-right: 0.2em;
+}
+.account-tag.user-area {
+    margin-top: 0px;
+    font-size: 28px;
+    color: #7f7d7d;
+    padding-left: 3.7em;
+    font-weight: bold;
+    position: relative;
+    top: -0.9em;
+}
+.u-tw-message {
+    margin: 0px;
+}
+.follow-button:hover {
+    background: #fbf9f9;
+}
+.u-tw-date {
+    margin: 0px;
+    margin-bottom: 0.5em;
+    line-height: 29px;
+    font-size: 29px;
+    color: #74818a;
+    font-weight: bold;
+}
+.down-data {
+    margin-top: 2em;
+}
+.text-data {
+font-size: 30px;
+color: #687781;
+font-weight: bold;
+}
+}
+/* Images  */
+.img-reducing-2-5 {
+ width: 2.5%;
+}
+.img-validated {
+    width: 5.6%;
+    position: relative;
+    top: 0.1em;
+}
+.cloud-left {
+  display: inline;
+}
+.social-icons {
+  padding-right: 0.1em;
+}
+.reply-tw {
+  padding-right: 1em;
+}
+.loveit-tw {
+  padding-left: 1em;
+}
